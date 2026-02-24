@@ -44,3 +44,16 @@ cd admin-client
 npm install
 npm run dev
 ```
+
+
+## Demo
+
+Demonstration (student-client): https://drive.google.com/file/d/1wXxy8B8-SEzq1-d_8D5oWm2uD-Sp7cnm/view?usp=sharing
+[![Watch the demo](https://github.com/user-attachments/assets/81c0a047-1a54-44c8-b810-af5bbde7f441)](https://drive.google.com/file/d/1wXxy8B8-SEzq1-d_8D5oWm2uD-Sp7cnm/view?usp=sharing)
+
+
+An ongoing extension of this work includes shifting the admin-client to its own desktop app using tauri 
+(github : https://github.com/harsh-s15/autocoder-tauri) 
+with many more features and smoother ux for creating lab questions.
+[![Watch the demo](https://github.com/user-attachments/assets/2820180d-da19-48f9-9c9a-45623ce10515)](https://drive.google.com/file/d/1NUIC93gOGzmGMXaEZ7t-k4CRd5RSkY0f/view?usp=sharing)
+
