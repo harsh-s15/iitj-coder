@@ -6,6 +6,9 @@ iitj-coder is a microservices-based coding assignment evaluation platform design
 
 The system consists of several decoupled services that communicate through a mix of REST APIs and messaging queues.
 
+![WhatsApp Image 2026-02-24 at 3 33 15 PM](https://github.com/user-attachments/assets/62730828-af4f-43e8-afee-afe605e450c2)
+
+
 ```mermaid
 graph TD
     subgraph "Clients"
@@ -77,8 +80,15 @@ Each submission runs in a fresh Docker container. This provides:
 - **Resource Control**: Strictly enforces memory and time limits.
 - **Consistency**: The environment is identical for every run.
 
+
+![WhatsApp Image 2026-02-24 at 3 33 16 PM](https://github.com/user-attachments/assets/f7875103-e271-411c-b9b2-cd5327da46d6)
+
+
+
 ## Authentication Workflow
 1. **Admin Action**: Admin provides a student email via `/admin/generate-credentials`.
 2. **Credential Storage**: A random password is generated, hashed, and stored in the database.
 3. **Student Login**: Student authenticates. Upon success, a session ID is stored in Redis.
 4. **Authorized Requests**: Every subsequent request is verified against the session in Redis, ensuring secure and stateless-like scaling while maintaining a stateful user experience.
+
+
