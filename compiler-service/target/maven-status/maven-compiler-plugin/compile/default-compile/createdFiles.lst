@@ -1,0 +1,15 @@
+com\example\compiler\controller\InternalController.class
+com\example\compiler\EvaluationService.class
+com\example\DAO\QuestionRepository.class
+com\example\DAO\UserRepository.class
+com\example\compiler\CompilerApplication.class
+com\example\bean\User.class
+com\example\compiler\SubmissionConsumer.class
+com\example\DAO\SubmissionRepository.class
+com\example\bean\Submission.class
+com\example\dto\SubmissionTask.class
+com\example\bean\TestCase.class
+com\example\compiler\DockerService.class
+com\example\compiler\config\RedisConfig.class
+com\example\bean\Question.class
+com\example\DAO\TestCaseRepository.class
