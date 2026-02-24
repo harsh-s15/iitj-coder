@@ -37,3 +37,10 @@ cd student-client
 npm install
 npm run dev
 ```
+
+### 3. Admin Client
+```bash
+cd admin-client
+npm install
+npm run dev
+```
